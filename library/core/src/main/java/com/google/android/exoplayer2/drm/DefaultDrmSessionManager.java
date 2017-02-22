@@ -104,6 +104,11 @@ public class DefaultDrmSessionManager<T extends ExoMediaCrypto> implements DrmSe
   /** Releases an existing offline license. */
   public static final int MODE_RELEASE = 3;
 
+  /**
+   * The format to use when ClearKey encryption.
+   */
+  private static final String CENC_INIT_DATA_FORMAT = "cenc";
+
   private static final String TAG = "OfflineDrmSessionMngr";
   private static final String CENC_SCHEME_MIME_TYPE = "cenc";
 
