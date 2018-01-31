@@ -329,11 +329,41 @@
     "name": "ClearKey DASH",
     "samples": [
       {
-        "name": "Big Buck Bunny (CENC ClearKey)",
-        "uri": "http://html5.cablelabs.com:8100/cenc/ck/dash.mpd",
+        "name": "Shaka Player Demo (CENC ClearKey)",
+        "uri": "https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd",
         "extension": "mpd",
         "drm_scheme": "cenc",
-        "drm_license_url": "https://wasabeef.jp/demos/cenc-ck-dash.json"
+        "drm_license_url": "https://cwip-shaka-proxy.appspot.com/clearkey?_u3wDe7erb7v8Lqt8A3QDQ=ABEiM0RVZneImaq7zN3u_w"
+      },
+      {
+        "name": "Big Buck Bunny (CENC ClearKey)",
+        "uri": "https://people.linaro.org/~show.liu/clearkey/BigBuckBunny_enc.mpd",
+        "extension": "mpd",
+        "drm_scheme": "cenc",
+        "drm_license_url": "https://people.linaro.org/~show.liu/clearkey/BigBuckBunny.json"
+      },
+      {
+        "name": "Big Buck Bunny fragment 20000ms (CENC ClearKey)",
+        "uri": "https://people.linaro.org/~show.liu/bbb_clearkey/BigBuckBunny_enc_dash.mpd",
+        "extension": "mpd",
+        "drm_scheme": "cenc",
+        "drm_license_url": "https://people.linaro.org/~show.liu/clearkey/BigBuckBunny.json"
+      },
+      {
+        "name": "Local Lan: Big Buck Bunny (CENC ClearKey)",
+        "uri": "http://192.168.3.24/clearkey/enc/BigBuckBunny_enc.mpd",
+        "extension": "mpd",
+        "drm_scheme": "cenc",
+        "drm_license_url": "http://192.168.3.24/clearkey/BigBuckBunny.json"
+
+      },
+      {
+        "name": "Local Lan: Tears Of Steel (CENC ClearKey)",
+        "uri": "http://192.168.3.24/clearkey/enc/TearsOfSteel_enc.mpd",
+        "extension": "mpd",
+        "drm_scheme": "cenc",
+        "drm_license_url": "http://192.168.3.24/clearkey/TearsOfSteel.json"
+
       }
     ]
   },
